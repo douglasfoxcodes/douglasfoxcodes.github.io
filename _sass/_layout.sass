@@ -2,14 +2,17 @@ html, body
   height: 100%
   width: 100%
 
-
-
 .sidebar
   background: white
   width: 450px
   display: inline-block
-  float: left
+  float: right
   padding: 80px 60px
+
+  @include media-query($on-mobile)
+    width: 100%
+    padding: 40px 20px
+
 
 .sidebar__nav
   margin-bottom: 35px
@@ -20,8 +23,12 @@ html, body
   background: #98C8D0
   display: inline-block
   width: calc(100% - 450px)
-  float: left
+  float: right
   min-height: 100%
 
 .site-title
   display: none
+
+@include media-query($on-mobile)
+  .main
+    width: 100%

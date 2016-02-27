@@ -28,6 +28,7 @@
 
 $font-stack: 'Lora-Regular', Helvetica, Arial, san-serif;
 $bold-font-stack: 'Lora-Bold', Helvetica, Arial, san-serif;
+$italic-font-stack: 'Lora-Italic', Helvetica, Arial, san-serif;
 
 @mixin boldFont {
   font-family: $bold-font-stack;
