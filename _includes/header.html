@@ -6,8 +6,10 @@
       <ol>
         {% for post in site.posts %}
           <li>
-            {% if post.title %}
-            <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            {% if post.link %}
+            <a href="{{ post.link }}" target="_blank">{{ post.title }}</a> &#8599;
+            {% else %}
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             {% endif %}
           </li>
         {% endfor %}
@@ -15,7 +17,7 @@
     </nav>
 
     <nav class="sidebar__nav">
-      <h2 class="sidebar__nav__title">Pages</h2>
+      <h2 class="sidebar__nav__title">Other</h2>
       <ol>
         {% for my_page in site.pages %}
           <li>
@@ -24,6 +26,12 @@
             {% endif %}
           </li>
         {% endfor %}
+        <li>
+          <a href="https://twitter.com/douglasfoxsays">Twitter</a>
+        </li>
+        <li>
+          <a href="mailto:douglasfoxwrites@gmail.com">Contact</a>
+        </li>
       </ol>
     </nav>
 </header>
