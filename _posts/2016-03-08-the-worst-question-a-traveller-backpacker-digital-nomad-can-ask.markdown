@@ -37,7 +37,7 @@ The tourist layer exists for three reasons...
 
 Perhaps when traveller-types say they've 'done' a country they actually mean they've exhausted the tourist layer.
 
-Making a lifestyle of travel, as many digital nomads do, allows us to travel slower than your budget constrained backpacker. Those of us who are able to afford a slow travel lifestyle (and by afford I mean financially and without location dependent responsibilities) are an incredibly priveledged subset of travellers.
+Making a lifestyle of travel, as many digital nomads do, allows us to travel slower than your budget constrained backpacker. Those of us who are able to afford a slow travel lifestyle (and by afford I mean financially and without location dependent responsibilities) are an incredibly privileged subset of travellers.
 
 We are in a position to really experience a country – to smash through the tourist layer.
 
